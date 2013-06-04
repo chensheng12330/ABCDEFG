@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584DE642175D7C280027B4E8 /* AIMRequestLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE62D175D7C280027B4E8 /* AIMRequestLogic.m */; };
+		584DE643175D7C280027B4E8 /* ArchiverCacheDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE62F175D7C280027B4E8 /* ArchiverCacheDB.m */; };
+		584DE644175D7C280027B4E8 /* ASIHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE631175D7C280027B4E8 /* ASIHttp.m */; };
+		584DE645175D7C280027B4E8 /* ConfigManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE633175D7C280027B4E8 /* ConfigManage.m */; };
+		584DE646175D7C280027B4E8 /* InstanceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE635175D7C280027B4E8 /* InstanceFactory.m */; };
+		584DE647175D7C280027B4E8 /* NetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE639175D7C280027B4E8 /* NetRequest.m */; };
+		584DE648175D7C280027B4E8 /* NetResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE63B175D7C280027B4E8 /* NetResponse.m */; };
+		584DE649175D7C280027B4E8 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE63D175D7C280027B4E8 /* NetWork.m */; };
+		584DE64A175D7C280027B4E8 /* NetWorkServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE63F175D7C280027B4E8 /* NetWorkServices.m */; };
+		584DE64B175D7C280027B4E8 /* ServicesConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 584DE641175D7C280027B4E8 /* ServicesConfig.m */; };
+		584DE64D175D82ED0027B4E8 /* servicesConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 584DE64C175D82ED0027B4E8 /* servicesConfig.plist */; };
 		585013AE175C9168003307D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585013AD175C9168003307D7 /* UIKit.framework */; };
 		585013B0175C9168003307D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585013AF175C9168003307D7 /* Foundation.framework */; };
 		585013B2175C9168003307D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585013B1175C9168003307D7 /* CoreGraphics.framework */; };
@@ -70,6 +81,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		584DE62C175D7C280027B4E8 /* AIMRequestLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMRequestLogic.h; sourceTree = "<group>"; };
+		584DE62D175D7C280027B4E8 /* AIMRequestLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMRequestLogic.m; sourceTree = "<group>"; };
+		584DE62E175D7C280027B4E8 /* ArchiverCacheDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiverCacheDB.h; sourceTree = "<group>"; };
+		584DE62F175D7C280027B4E8 /* ArchiverCacheDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiverCacheDB.m; sourceTree = "<group>"; };
+		584DE630175D7C280027B4E8 /* ASIHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHttp.h; sourceTree = "<group>"; };
+		584DE631175D7C280027B4E8 /* ASIHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHttp.m; sourceTree = "<group>"; };
+		584DE632175D7C280027B4E8 /* ConfigManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigManage.h; sourceTree = "<group>"; };
+		584DE633175D7C280027B4E8 /* ConfigManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigManage.m; sourceTree = "<group>"; };
+		584DE634175D7C280027B4E8 /* InstanceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceFactory.h; sourceTree = "<group>"; };
+		584DE635175D7C280027B4E8 /* InstanceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstanceFactory.m; sourceTree = "<group>"; };
+		584DE636175D7C280027B4E8 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		584DE637175D7C280027B4E8 /* NetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConfig.h; sourceTree = "<group>"; };
+		584DE638175D7C280027B4E8 /* NetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequest.h; sourceTree = "<group>"; };
+		584DE639175D7C280027B4E8 /* NetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequest.m; sourceTree = "<group>"; };
+		584DE63A175D7C280027B4E8 /* NetResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetResponse.h; sourceTree = "<group>"; };
+		584DE63B175D7C280027B4E8 /* NetResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetResponse.m; sourceTree = "<group>"; };
+		584DE63C175D7C280027B4E8 /* NetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		584DE63D175D7C280027B4E8 /* NetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+		584DE63E175D7C280027B4E8 /* NetWorkServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkServices.h; sourceTree = "<group>"; };
+		584DE63F175D7C280027B4E8 /* NetWorkServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkServices.m; sourceTree = "<group>"; };
+		584DE640175D7C280027B4E8 /* ServicesConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesConfig.h; sourceTree = "<group>"; };
+		584DE641175D7C280027B4E8 /* ServicesConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesConfig.m; sourceTree = "<group>"; };
+		584DE64C175D82ED0027B4E8 /* servicesConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = servicesConfig.plist; sourceTree = "<group>"; };
 		585013AA175C9168003307D7 /* MAE_Standard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAE_Standard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		585013AD175C9168003307D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		585013AF175C9168003307D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -191,6 +225,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		584DE62B175D7C280027B4E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				584DE64C175D82ED0027B4E8 /* servicesConfig.plist */,
+				584DE62C175D7C280027B4E8 /* AIMRequestLogic.h */,
+				584DE62D175D7C280027B4E8 /* AIMRequestLogic.m */,
+				584DE62E175D7C280027B4E8 /* ArchiverCacheDB.h */,
+				584DE62F175D7C280027B4E8 /* ArchiverCacheDB.m */,
+				584DE630175D7C280027B4E8 /* ASIHttp.h */,
+				584DE631175D7C280027B4E8 /* ASIHttp.m */,
+				584DE632175D7C280027B4E8 /* ConfigManage.h */,
+				584DE633175D7C280027B4E8 /* ConfigManage.m */,
+				584DE634175D7C280027B4E8 /* InstanceFactory.h */,
+				584DE635175D7C280027B4E8 /* InstanceFactory.m */,
+				584DE636175D7C280027B4E8 /* Interface.h */,
+				584DE637175D7C280027B4E8 /* NetConfig.h */,
+				584DE638175D7C280027B4E8 /* NetRequest.h */,
+				584DE639175D7C280027B4E8 /* NetRequest.m */,
+				584DE63A175D7C280027B4E8 /* NetResponse.h */,
+				584DE63B175D7C280027B4E8 /* NetResponse.m */,
+				584DE63C175D7C280027B4E8 /* NetWork.h */,
+				584DE63D175D7C280027B4E8 /* NetWork.m */,
+				584DE63E175D7C280027B4E8 /* NetWorkServices.h */,
+				584DE63F175D7C280027B4E8 /* NetWorkServices.m */,
+				584DE640175D7C280027B4E8 /* ServicesConfig.h */,
+				584DE641175D7C280027B4E8 /* ServicesConfig.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		585013A1175C9168003307D7 = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +553,7 @@
 		58991D65175C9E4000ED8ED2 /* Network Request */ = {
 			isa = PBXGroup;
 			children = (
+				584DE62B175D7C280027B4E8 /* Services */,
 			);
 			path = "Network Request";
 			sourceTree = "<group>";
@@ -693,6 +758,7 @@
 				585013CA175C9168003307D7 /* RootViewController.xib in Resources */,
 				58991D7C175C9E4000ED8ED2 /* Blocks.pdf in Resources */,
 				58991D7D175C9E4000ED8ED2 /* MPRSPConfig.plist in Resources */,
+				584DE64D175D82ED0027B4E8 /* servicesConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +822,16 @@
 				58991D94175C9E4000ED8ED2 /* Reachability.m in Sources */,
 				58991D95175C9E4000ED8ED2 /* DeviceChangeNotification.m in Sources */,
 				58991D96175C9E4000ED8ED2 /* NetworkChangedNotification.m in Sources */,
+				584DE642175D7C280027B4E8 /* AIMRequestLogic.m in Sources */,
+				584DE643175D7C280027B4E8 /* ArchiverCacheDB.m in Sources */,
+				584DE644175D7C280027B4E8 /* ASIHttp.m in Sources */,
+				584DE645175D7C280027B4E8 /* ConfigManage.m in Sources */,
+				584DE646175D7C280027B4E8 /* InstanceFactory.m in Sources */,
+				584DE647175D7C280027B4E8 /* NetRequest.m in Sources */,
+				584DE648175D7C280027B4E8 /* NetResponse.m in Sources */,
+				584DE649175D7C280027B4E8 /* NetWork.m in Sources */,
+				584DE64A175D7C280027B4E8 /* NetWorkServices.m in Sources */,
+				584DE64B175D7C280027B4E8 /* ServicesConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
